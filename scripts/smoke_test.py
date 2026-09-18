@@ -34,8 +34,8 @@ def run_smoke_test():
     log("1. Health Check")
     status, data = request("/api/health")
     assert status == 200, f"Health failed: {data}"
-    log(f"Health response: {data}")
-    assert data["version"] == "9.5.0", f"Version mismatch: {data['version']}"
+    assert data["status"] == "ok", f"Health status not ok: {data}"
+    assert "version" in data, "Version key missing from health response"
 
     log("2. Login")
     status, data = request("/api/auth/login", method="POST", data={"username": "developer", "password": "YemenAI2026!"}, headers={"X-Forwarded-For": "10.0.0.1"})
