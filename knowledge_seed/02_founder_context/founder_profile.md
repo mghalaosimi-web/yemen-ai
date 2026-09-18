@@ -1,0 +1,2 @@
+# Founder and Project Context
+Yemen AI was initiated and developed by Mohammed Al-Aosimi as a long-term engineering project. The founder context is professional project metadata, not a substitute for public biographical knowledge. The development approach emphasizes practical implementation, preserving working versions, testing before release, improving interfaces based on real use, and designing for future deployment through GitHub, cloud infrastructure, APIs and desktop/mobile clients.

@@ -1,0 +1,69 @@
+{
+  "arabic_examples": [
+    {
+      "query": "ما هو الذكاء الاصطناعي؟",
+      "expected_domain": "ai",
+      "expected_language": "ar"
+    },
+    {
+      "query": "كيف يعمل التعلم الآلي؟",
+      "expected_domain": "ai",
+      "expected_language": "ar"
+    },
+    {
+      "query": "اشرح لي RAG.",
+      "expected_domain": "ai",
+      "expected_language": "ar"
+    },
+    {
+      "query": "ما الفرق بين التعلم العميق والتعلم الآلي؟",
+      "expected_domain": "ai",
+      "expected_language": "ar"
+    },
+    {
+      "query": "ايش آخر نسخة من المشروع؟",
+      "expected_domain": "projects",
+      "expected_language": "ar",
+      "is_dialect": true
+    }
+  ],
+  "english_examples": [
+    {
+      "query": "What is artificial intelligence?",
+      "expected_domain": "ai",
+      "expected_language": "en"
+    },
+    {
+      "query": "How does machine learning work?",
+      "expected_domain": "ai",
+      "expected_language": "en"
+    },
+    {
+      "query": "Explain RAG.",
+      "expected_domain": "ai",
+      "expected_language": "en"
+    },
+    {
+      "query": "What is the latest project version?",
+      "expected_domain": "projects",
+      "expected_language": "en"
+    }
+  ],
+  "mixed_examples": [
+    {
+      "query": "اشرح FastAPI بالعربي.",
+      "expected_domain": "programming",
+      "expected_language": "mixed"
+    },
+    {
+      "query": "How does نظام الاسترجاع work?",
+      "expected_domain": "ai",
+      "expected_language": "mixed"
+    },
+    {
+      "query": "What is الفرق بين AI and ML?",
+      "expected_domain": "ai",
+      "expected_language": "mixed"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "canonical_concept": "concept_rag",
+    "english": "Retrieval Augmented Generation",
+    "arabic": "التوليد المعزز بالاسترجاع",
+    "abbreviation": "RAG",
+    "domain": "ai",
+    "definition": "A technique that combines information retrieval with language model generation to provide grounded context.",
+    "aliases": ["استرجاع المعرفة", "RAG Engine"]
+  },
+  {
+    "canonical_concept": "concept_api",
+    "english": "Application Programming Interface",
+    "arabic": "واجهة برمجة التطبيقات",
+    "abbreviation": "API",
+    "domain": "software_engineering",
+    "definition": "A set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.",
+    "aliases": ["واجهة برمجة", "REST API"]
+  },
+  {
+    "canonical_concept": "concept_ai",
+    "english": "Artificial Intelligence",
+    "arabic": "الذكاء الاصطناعي",
+    "abbreviation": "AI",
+    "domain": "ai",
+    "definition": "The simulation of human intelligence processes by machines, especially computer systems.",
+    "aliases": ["ذكاء اصطناعي", "Machine Intelligence"]
+  },
+  {
+    "canonical_concept": "concept_ml",
+    "english": "Machine Learning",
+    "arabic": "تعلم الآلة",
+    "abbreviation": "ML",
+    "domain": "ai",
+    "definition": "A branch of artificial intelligence focused on building applications that learn from data and improve their accuracy over time without being explicitly programmed.",
+    "aliases": ["التعلم الآلي", "ML Model"]
+  },
+  {
+    "canonical_concept": "concept_fastapi",
+    "english": "FastAPI",
+    "arabic": "فاست إيه بي آي",
+    "abbreviation": "FastAPI",
+    "domain": "programming",
+    "definition": "A modern, fast (high-performance), web framework for building APIs with Python.",
+    "aliases": ["FastAPI Framework"]
+  }
+]
