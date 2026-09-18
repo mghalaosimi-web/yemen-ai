@@ -86,6 +86,7 @@ class LocalSemanticEmbeddingProvider(EmbeddingProvider):
 
     def _init_local_model(self):
         try:
+            # pyrefly: ignore [missing-import]
             from sentence_transformers import SentenceTransformer
             # Only load if local weights exist or sentence-transformers can load locally
             self._model = SentenceTransformer(self.model_path, local_files_only=True)

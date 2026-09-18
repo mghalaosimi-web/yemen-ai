@@ -85,6 +85,7 @@ class OptionalLocalCrossEncoderReranker(Reranker):
 
     def _init_encoder(self):
         try:
+            # pyrefly: ignore [missing-import]
             from sentence_transformers import CrossEncoder
             self._encoder = CrossEncoder(self.model_path, local_files_only=True)
             self._is_available = True
