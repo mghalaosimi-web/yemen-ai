@@ -10,18 +10,27 @@
 
 ---
 
-## 🌟 Key Features & Capabilities
+## 🖼️ Application Interfaces & Visual Overview
 
-- 🤖 **Multi-Provider AI Core Engine**: Seamlessly switch between local models (**Ollama**), **OpenAI-compatible APIs**, or internal offline fallbacks without application downtime.
-- 📚 **Advanced RAG & Knowledge Engineering**: Multi-stage document chunking, semantic reranking, hybrid vector search, and citation provenance grounding.
-- 🔬 **Document Research Workspace (Pro)**: Multi-document evidence comparison, page-aware outlines, and strict evidence-linked citations.
-- 🔐 **Enterprise Access & Role Control**: Fine-grained Role-Based Access Control (RBAC) with JWT authentication covering User, Trainer, Developer, and Platform Admin portals.
-- 🎨 **Modern Responsive UI**: Dark & Light high-contrast themes, dynamic RTL/LTR support, smooth micro-animations, and full desktop/mobile responsive drawers.
-- 🧠 **Adaptive Cognitive Core & Memory Graph**: Context resolution, query analysis, conflict resolution, quality critic, and self-learning feedback loops.
+### 1. Main Dashboard & AI Assistant Portal
+![Yemen AI Main Dashboard & Assistant Portal](docs/images/dashboard.png)
+*Figure 1: Main Platform Dashboard showing live bilingual (Arabic/English) AI Assistant, real-time RAG citations, active model status, and knowledge index statistics.*
 
 ---
 
-## 🏗️ Architectural Overview
+### 2. Document Research Workspace Pro
+![Document Research Workspace Pro](docs/images/document_workspace.png)
+*Figure 2: Multi-document evidence comparison, page-aware outlines, and strict evidence-linked citation grounding.*
+
+---
+
+### 3. Model Control Center & System Health
+![Model Control Center](docs/images/model_control.png)
+*Figure 3: Developer control room for model provider selection (Ollama, OpenAI API, Offline Echo), memory graph inspection, and real-time security audit metrics.*
+
+---
+
+## 🏗️ Architectural System Flow
 
 ```mermaid
 graph TD
@@ -37,6 +46,17 @@ graph TD
     Control --> OpenAI[OpenAI Compatible APIs]
     Brain --> SQLite[(SQLite System Storage)]
 ```
+
+---
+
+## 🌟 Key Features & Capabilities
+
+- 🤖 **Multi-Provider AI Core Engine**: Seamlessly switch between local models (**Ollama**), **OpenAI-compatible APIs**, or internal offline fallbacks without application downtime.
+- 📚 **Advanced RAG & Knowledge Engineering**: Multi-stage document chunking, semantic reranking, hybrid vector search, and citation provenance grounding.
+- 🔬 **Document Research Workspace (Pro)**: Multi-document evidence comparison, page-aware outlines, and strict evidence-linked citations.
+- 🔐 **Enterprise Access & Role Control**: Fine-grained Role-Based Access Control (RBAC) with JWT authentication covering User, Trainer, Developer, and Platform Admin portals.
+- 🎨 **Modern Responsive UI**: Dark & Light high-contrast themes, dynamic RTL/LTR support, smooth micro-animations, and full desktop/mobile responsive drawers.
+- 🧠 **Adaptive Cognitive Core & Memory Graph**: Context resolution, query analysis, conflict resolution, quality critic, and self-learning feedback loops.
 
 ---
 
